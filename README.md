@@ -3,6 +3,8 @@
 <h2>Project Introduction</h2>
 This project develops a custom virtualizing layout control for the Avalonia UI framework, named Avalonia.SVirtualizingWrapPanel. It should be noted that, due to the upcoming official VirtualizingWrapPanel from the Avalonia Accelerate program, the prefix "SVirtualizingWrapPanel" is used to avoid naming conflicts.
 
+To meet the needs of my personal project, I further implemented VirtualizingUniformGrid and VirtualizingStackPanel, and added waterfall loading functionality to all of them.
+
 <h2>Development Background</h2>
 As an amateur programming enthusiast, I developed this control to meet the needs of a virtualizing wrap layout in my personal projects. In the absence of existing solutions, I implemented this layout logic independently based on the design ideas of Avalonia's VirtualizingStackPanel (without directly referencing the WrapPanel source code). It should be emphasized:
 <ul>
