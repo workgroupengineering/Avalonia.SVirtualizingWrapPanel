@@ -376,7 +376,8 @@ AvaloniaProperty.Register<SVirtualizingUniformGrid, double>(nameof(ColumnSpacing
                         {
                             _clearStartIndex = _LastIndex;
                         }
-                        for (int i = _clearStartIndex; i < Items.Count; i++)
+                        var _count = _ElementDictionary.Count;
+                        for (int i = _clearStartIndex; i < _count; i++)
                         {
                             if (_ElementDictionary.TryGetValue(i, out var _element))
                             {
